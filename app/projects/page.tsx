@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 const projects = [
  { name: 'Background Remover', description: ' Typescript ', link: 'https://editor-ts.netlify.app/', image: '/images/editor.PNG' },
   { name: 'Filimo School', description: 'Nextjs ', link: 'https://filmo-school.vercel.app/', image: '/images/filimo.PNG' },
+  { name: 'Blogging App', description: ' Javascript ', link: 'https://haris-blogging.web.app/', image: '/images/blogging.PNG' },
 
 ];
 
@@ -36,7 +37,7 @@ const ProjectsSection = () => {
             <img
               src={project.image}
               alt={project.name}
-              className="w-full h-40 object-cover rounded-md mb-4"
+              className="w-full h-40 object-cover object-left rounded-md mb-4"
             />
             <div className="text-lg text-gray-300">{project.name}</div>
             <p className="mt-2 text-sm text-gray-400">{project.description}</p>

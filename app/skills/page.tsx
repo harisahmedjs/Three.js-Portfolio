@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaFigma, FaPython } from 'react-icons/fa'
-import { SiNextdotjs, SiTypescript, SiUikit , SiTailwindcss } from 'react-icons/si'
+import { SiNextdotjs, SiTypescript, SiUikit , SiTailwindcss, SiMui } from 'react-icons/si'
 import { TbUserCircle } from 'react-icons/tb'
 import { motion } from 'framer-motion'
 
@@ -12,12 +12,13 @@ const SkillsSection = () => {
     { icon: <FaJs />, color: '#F7DF1E', name: 'JavaScript' },
     { icon: <SiNextdotjs />, color: '#FFFFFF', name: 'Next.js' },
     { icon: <SiTypescript />, color: '#3178C6', name: 'TypeScript' },
-    { icon: <FaFigma />, color: '#F24E1E', name: 'Figma' },
+    { icon: <FaReact />, color: '#087ea4', name: 'React.js' },
     { icon: <TbUserCircle />, color: '#FF5722', name: 'User Research' },
-    { icon: <SiUikit />, color: '#3DDC84', name: 'UX/UI' },
-    { icon: <FaGithub />, color: '#181717', name: 'GitHub' },
-    { icon: <FaPython />, color: '#3776AB', name: 'Python' },
+    // { icon: <SiUikit />, color: '#3DDC84', name: 'UX/UI' },
+    // { icon: <FaGithub />, color: '#FFFFFF', name: 'GitHub' },
+    // { icon: <FaPython />, color: '#3776AB', name: 'Python' },
     { icon: <SiTailwindcss />, color: '#06B6D4', name: 'Tailwind CSS' },
+    { icon: <SiMui />, color: '#0073e6', name: 'Material UI' },
   ];
 
   return (
